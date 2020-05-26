@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage     = package['homepage']
   s.license      = package['license']
   s.author       = package['author']
-  s.platform     = :ios, '9.0'
+  s.platforms    = { :ios => "9.0", :tvos => "10.0" }
   s.source       = { :git => 'https://github.com/iyegoroff/react-native-color-matrix-image-filters.git', :tag => 'v#{s.version}' }
   s.source_files = 'ios/*.{h,m}'
   s.requires_arc = true

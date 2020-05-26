@@ -7,20 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4817BFFF247D0E6700704ED1 /* RNColorMatrixImageFilters_tvos.m in Sources */ = {isa = PBXBuildFile; fileRef = 4817BFFE247D0E6700704ED1 /* RNColorMatrixImageFilters_tvos.m */; };
-		4817C000247D0E6700704ED1 /* RNColorMatrixImageFilters_tvos.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4817BFFD247D0E6700704ED1 /* RNColorMatrixImageFilters_tvos.h */; };
+		4817C014247D154300704ED1 /* CMIFColorMatrixImageFilterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74015D85210FA99E00C1CA8B /* CMIFColorMatrixImageFilterManager.m */; };
+		4817C015247D154600704ED1 /* CMIFColorMatrixImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 74015D82210FA95300C1CA8B /* CMIFColorMatrixImageFilter.m */; };
 		74015D83210FA95300C1CA8B /* CMIFColorMatrixImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 74015D82210FA95300C1CA8B /* CMIFColorMatrixImageFilter.m */; };
 		74015D86210FA99E00C1CA8B /* CMIFColorMatrixImageFilterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74015D85210FA99E00C1CA8B /* CMIFColorMatrixImageFilterManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4817BFF9247D0E6600704ED1 /* CopyFiles */ = {
+		4817C009247D153700704ED1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				4817C000247D0E6700704ED1 /* RNColorMatrixImageFilters_tvos.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,10 +36,7 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNColorMatrixImageFilters.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNColorMatrixImageFilters.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4817BFFB247D0E6600704ED1 /* libRNColorMatrixImageFilters-tvos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libRNColorMatrixImageFilters-tvos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4817BFFD247D0E6700704ED1 /* RNColorMatrixImageFilters_tvos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNColorMatrixImageFilters_tvos.h; sourceTree = "<group>"; };
-		4817BFFE247D0E6700704ED1 /* RNColorMatrixImageFilters_tvos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNColorMatrixImageFilters_tvos.m; sourceTree = "<group>"; };
-		4817C004247D0E7100704ED1 /* libRNColorMatrixImageFilters-tvos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libRNColorMatrixImageFilters-tvos.a"; path = "../../../Library/Developer/Xcode/DerivedData/RNColorMatrixImageFilters-bzjemonqbaqkujekizqkggarbong/Build/Products/Debug-appletvos/libRNColorMatrixImageFilters-tvos.a"; sourceTree = "<group>"; };
+		4817C00B247D153700704ED1 /* libRNColorMatrixImageFilters-tvos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libRNColorMatrixImageFilters-tvos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74015D81210FA95300C1CA8B /* CMIFColorMatrixImageFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMIFColorMatrixImageFilter.h; sourceTree = "<group>"; };
 		74015D82210FA95300C1CA8B /* CMIFColorMatrixImageFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMIFColorMatrixImageFilter.m; sourceTree = "<group>"; };
 		74015D84210FA99E00C1CA8B /* CMIFColorMatrixImageFilterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMIFColorMatrixImageFilterManager.h; sourceTree = "<group>"; };
@@ -49,7 +45,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4817BFF8247D0E6600704ED1 /* Frameworks */ = {
+		4817C008247D153700704ED1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,16 +70,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4817BFFC247D0E6700704ED1 /* RNColorMatrixImageFilters-tvos */ = {
-			isa = PBXGroup;
-			children = (
-				4817C004247D0E7100704ED1 /* libRNColorMatrixImageFilters-tvos.a */,
-				4817BFFD247D0E6700704ED1 /* RNColorMatrixImageFilters_tvos.h */,
-				4817BFFE247D0E6700704ED1 /* RNColorMatrixImageFilters_tvos.m */,
-			);
-			path = "RNColorMatrixImageFilters-tvos";
-			sourceTree = "<group>";
-		};
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
@@ -92,22 +78,21 @@
 				74015D82210FA95300C1CA8B /* CMIFColorMatrixImageFilter.m */,
 				74015D84210FA99E00C1CA8B /* CMIFColorMatrixImageFilterManager.h */,
 				74015D85210FA99E00C1CA8B /* CMIFColorMatrixImageFilterManager.m */,
-				4817BFFC247D0E6700704ED1 /* RNColorMatrixImageFilters-tvos */,
 				134814211AA4EA7D00B7C361 /* Products */,
-				4817BFFB247D0E6600704ED1 /* libRNColorMatrixImageFilters-tvos.a */,
+				4817C00B247D153700704ED1 /* libRNColorMatrixImageFilters-tvos.a */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4817BFFA247D0E6600704ED1 /* RNColorMatrixImageFilters-tvos */ = {
+		4817C00A247D153700704ED1 /* RNColorMatrixImageFilters-tvos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4817C001247D0E6700704ED1 /* Build configuration list for PBXNativeTarget "RNColorMatrixImageFilters-tvos" */;
+			buildConfigurationList = 4817C011247D153700704ED1 /* Build configuration list for PBXNativeTarget "RNColorMatrixImageFilters-tvos" */;
 			buildPhases = (
-				4817BFF7247D0E6600704ED1 /* Sources */,
-				4817BFF8247D0E6600704ED1 /* Frameworks */,
-				4817BFF9247D0E6600704ED1 /* CopyFiles */,
+				4817C007247D153700704ED1 /* Sources */,
+				4817C008247D153700704ED1 /* Frameworks */,
+				4817C009247D153700704ED1 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -115,7 +100,7 @@
 			);
 			name = "RNColorMatrixImageFilters-tvos";
 			productName = "RNColorMatrixImageFilters-tvos";
-			productReference = 4817BFFB247D0E6600704ED1 /* libRNColorMatrixImageFilters-tvos.a */;
+			productReference = 4817C00B247D153700704ED1 /* libRNColorMatrixImageFilters-tvos.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		58B511DA1A9E6C8500147676 /* RNColorMatrixImageFilters */ = {
@@ -144,7 +129,7 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
-					4817BFFA247D0E6600704ED1 = {
+					4817C00A247D153700704ED1 = {
 						CreatedOnToolsVersion = 11.5;
 						ProvisioningStyle = Automatic;
 					};
@@ -167,17 +152,18 @@
 			projectRoot = "";
 			targets = (
 				58B511DA1A9E6C8500147676 /* RNColorMatrixImageFilters */,
-				4817BFFA247D0E6600704ED1 /* RNColorMatrixImageFilters-tvos */,
+				4817C00A247D153700704ED1 /* RNColorMatrixImageFilters-tvos */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4817BFF7247D0E6600704ED1 /* Sources */ = {
+		4817C007247D153700704ED1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4817BFFF247D0E6700704ED1 /* RNColorMatrixImageFilters_tvos.m in Sources */,
+				4817C014247D154300704ED1 /* CMIFColorMatrixImageFilterManager.m in Sources */,
+				4817C015247D154600704ED1 /* CMIFColorMatrixImageFilter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +179,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4817C002247D0E6700704ED1 /* Debug */ = {
+		4817C012247D153700704ED1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -224,7 +210,7 @@
 			};
 			name = Debug;
 		};
-		4817C003247D0E6700704ED1 /* Release */ = {
+		4817C013247D153700704ED1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -377,11 +363,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4817C001247D0E6700704ED1 /* Build configuration list for PBXNativeTarget "RNColorMatrixImageFilters-tvos" */ = {
+		4817C011247D153700704ED1 /* Build configuration list for PBXNativeTarget "RNColorMatrixImageFilters-tvos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4817C002247D0E6700704ED1 /* Debug */,
-				4817C003247D0E6700704ED1 /* Release */,
+				4817C012247D153700704ED1 /* Debug */,
+				4817C013247D153700704ED1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
